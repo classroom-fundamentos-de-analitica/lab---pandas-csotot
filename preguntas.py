@@ -22,8 +22,9 @@ def pregunta_01():
     40
 
     """
-    return
+    return tbl0.count(axis=1)
 
+#print(pregunta_01())
 
 def pregunta_02():
     """
