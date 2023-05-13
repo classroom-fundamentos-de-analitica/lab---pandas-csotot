@@ -22,7 +22,7 @@ def pregunta_01():
     40
 
     """
-    return tbl0.count(axis=1)
+    return tbl0.count(axis=0)
 
 #print(pregunta_01())
 
@@ -34,7 +34,7 @@ def pregunta_02():
     4
 
     """
-    return
+    return  tbl0.count(axis=0)
 
 
 def pregunta_03():
@@ -51,7 +51,7 @@ def pregunta_03():
     Name: _c1, dtype: int64
 
     """
-    return
+    return tbl1["_c1"].value_counts()
 
 
 def pregunta_04():
@@ -66,7 +66,7 @@ def pregunta_04():
     E    4.785714
     Name: _c2, dtype: float64
     """
-    return
+    return 
 
 
 def pregunta_05():
